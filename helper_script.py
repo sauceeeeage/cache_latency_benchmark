@@ -34,7 +34,7 @@ def to_next_power_of_two(n):
 stride = 2000
 counter = 8
 diff = 1
-stop = to_next_power_of_two(33554433) # 2^25=33554432, let's boost it to 2^27=134217728
+stop = to_next_power_of_two(1073741824) # 2^25=33554432, let's boost it to 2^27=134217728
 
 # For cycle2 machine, L1 32KB, L2 should be 3MB, and L3 should be 30MB
 # For Shaotong's machine, L1d is a 16 instances of 512KB, L2 is 16 instances of 16MB, and L3 is 2 instances of 128MB
